@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next build && next export",
+    "export": "next build && next export -o docs",
     "predeploy": "npm run export",
-    "deploy": "gh-pages -d out",
+    "deploy": "git add docs && git commit -m \"chore: export static\" && git push origin main",
     "start": "next start",
     "lint": "next lint"
   },
