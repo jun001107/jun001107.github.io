@@ -6,8 +6,6 @@ const nextConfig: NextConfig = {
   output: 'export',
   trailingSlash: true,
   reactStrictMode: true,
-  basePath: process.env.NODE_ENV === 'production' ?
-      '/jun001107.github.io': '',
 };
 
 module.exports = nextConfig;
