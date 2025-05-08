@@ -20,56 +20,56 @@ export default function Header() {
 
 
     return (
-        // <header className="
-        //     py-4
-        //     px-[clamp(5%,10vw,20%)]
-        //     flex justify-between items-center
-        // ">
-        //     <div style={{ fontWeight: 'bold', fontSize: '2rem', color: '#c27aff' }}>
-        //         JHC
-        //     </div>
-        //     <nav className="relative flex gap-6">
-        //         {navItems.map(({ label, path }, idx) => (
-        //             <Link
-        //               key={path}
-        //               href={path}
-        //               ref={el => { if (el) linkRefs.current[idx] = el as HTMLElement; }}
-        //               className={`
-        //                 relative pb-2 transition-all duration-300
-        //                 ${pathname === path ? 'text-purple-400': 'text-white-800'}
-        //               `}
-        //             >
-        //               {label}
-        //             </Link>
-        //         ))}
-        //         {/* Indicator Bar */}
-        //         <span
-        //             className="absolute bottom-0 h-1 bg-purple-400 transition-all duration-300"
-        //             style={{ left: indicatorStyle.left, width: indicatorStyle.width }}
-        //         />
-        //     </nav>
-        // </header>
-        <header className="header">
-            <div className="logo">
+        <header className="
+            py-4
+            px-[clamp(5%,10vw,20%)]
+            flex justify-between items-center
+        ">
+            <div style={{ fontWeight: 'bold', fontSize: '2rem', color: '#c27aff' }}>
                 JHC
             </div>
             <nav className="relative flex gap-6">
                 {navItems.map(({ label, path }, idx) => (
                     <Link
-                        key={path}
-                        href={path}
-                        ref={el => { if (el) linkRefs.current[idx] = el as HTMLElement; }}
-                        className={`nav-link ${pathname === path ? 'active' : ''}`}
+                      key={path}
+                      href={path}
+                      ref={el => { if (el) linkRefs.current[idx] = el as HTMLElement; }}
+                      className={`
+                        relative pb-2 transition-all duration-300
+                        ${pathname === path ? 'text-purple-400': 'text-white-800'}
+                      `}
                     >
-                        {label}
+                      {label}
                     </Link>
                 ))}
                 {/* Indicator Bar */}
                 <span
-                    className="nav-indicator"
+                    className="absolute bottom-0 h-1 bg-purple-400 transition-all duration-300"
                     style={{ left: indicatorStyle.left, width: indicatorStyle.width }}
                 />
             </nav>
         </header>
+        // <header className="header">
+        //     <div className="logo">
+        //         JHC
+        //     </div>
+        //     <nav className="relative flex gap-6">
+        //         {navItems.map(({ label, path }, idx) => (
+        //             <Link
+        //                 key={path}
+        //                 href={path}
+        //                 ref={el => { if (el) linkRefs.current[idx] = el as HTMLElement; }}
+        //                 className={`nav-link ${pathname === path ? 'active' : ''}`}
+        //             >
+        //                 {label}
+        //             </Link>
+        //         ))}
+        //         {/* Indicator Bar */}
+        //         <span
+        //             className="nav-indicator"
+        //             style={{ left: indicatorStyle.left, width: indicatorStyle.width }}
+        //         />
+        //     </nav>
+        // </header>
     );
 }
