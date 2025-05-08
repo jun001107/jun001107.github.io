@@ -14,82 +14,45 @@ const Home: NextPage = () => {
 
     return (
 
-<section className="max-w-3xl mx-auto px-4 py-16">
-    {/* Badge */}
-    <p className="inline-block bg-green-950 text-green-300 text-sm font-medium px-3 py-1 rounded-full">
-        Welcome to my portfolio
-    </p>
+        <section className="max-w-3xl mx-auto px-4 py-16">
+            {/* Badge */}
+            <p className="inline-block bg-green-950 text-green-300 text-sm font-medium px-3 py-1 rounded-full">
+                Welcome to my portfolio
+            </p>
 
-    {/* Main Heading */}
-    <h1 className="mt-4 text-5xl sm:text-6xl font-extrabold text-white">
-        Hi, I&apos;m{' '}
-        <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
-                  Junghoon Cho
-              </span>
-    </h1>
+            {/* Main Heading */}
+            <h1 className="mt-4 text-5xl sm:text-6xl font-extrabold text-white">
+                Hi, I&apos;m{' '}
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
+                          Junghoon Cho
+                      </span>
+            </h1>
 
-    {/* Subtitle */}
-    <div className="mt-2 h-8 overflow-hidden relative">
-        <div
-            className="absolute top-0 left-0 transition-transform duration-400"
-            style={{ transform: `translateY(-${(currentIndex * 100) / subtitles.length}%)` }}
-        >
-            {subtitles.map((sub, idx) => (
-                <h2 key={idx} className="text-2xl text-gray-300 h-8 flex items-center">
-                    {sub}
-                </h2>
-            ))}
-        </div>
-    </div>
+            {/* Subtitle */}
+            <div className="mt-2 h-8 overflow-hidden relative">
+                <div
+                    className="absolute top-0 left-0 transition-transform duration-400"
+                    style={{ transform: `translateY(-${(currentIndex * 100) / subtitles.length}%)` }}
+                >
+                    {subtitles.map((sub, idx) => (
+                        <h2 key={idx} className="text-2xl text-gray-300 h-8 flex items-center">
+                            {sub}
+                        </h2>
+                    ))}
+                </div>
+            </div>
 
-    {/* Description */}
-    <p className="mt-6 text-gray-400 leading-relaxed">
-        I’m a Computer Science student with a strong interest in Machine Learning and Software Engineering.
-        I enjoy building user-friendly web applications and solving problems through logic and code.
-    </p>
-    <p className="mt-4 text-gray-400 leading-relaxed">
-        This website showcases my personal projects, technical skills, and learning journey.
-        Scroll down to explore what I’ve been working on!
-    </p>
-</section>
-      // <section className="home-section">
-      //     {/* Badge */}
-      //     <p className="badge">
-      //         Welcome to my portfolio
-      //     </p>
-      //
-      //     {/* Main Heading */}
-      //     <h1 className="main-heading">
-      //         Hi, I&apos;m{' '}
-      //         <span className="gradient">
-      //             Junghoon Cho
-      //         </span>
-      //     </h1>
-      //
-      //     {/* Subtitle */}
-      //     <div className="subtitle-container">
-      //         <div
-      //             className="slide-wrapper"
-      //             style={{ transform: `translateY(-${(currentIndex * 100) / subtitles.length}%)` }}
-      //         >
-      //             {subtitles.map((sub, idx) => (
-      //                 <h2 key={idx} className="slide-item">
-      //                     {sub}
-      //                 </h2>
-      //             ))}
-      //         </div>
-      //     </div>
-      //
-      //       {/* Description */}
-      //       <p className="description">
-      //           I’m a Computer Science student with a strong interest in Machine Learning and Software Engineering.
-      //           I enjoy building user-friendly web applications and solving problems through logic and code.
-      //       </p>
-      //       <p className="description-alt">
-      //           This website showcases my personal projects, technical skills, and learning journey.
-      //           Scroll down to explore what I’ve been working on!
-      //       </p>
-      // </section>
+            {/* Description */}
+            <p className="mt-6 text-gray-400 leading-relaxed">
+                I’m a Computer Science student with a strong interest in Machine Learning and Software Engineering.
+                I enjoy building user-friendly web applications and solving problems through logic and code.
+            </p>
+            <p className="mt-4 text-gray-400 leading-relaxed">
+                This website showcases my personal projects, technical skills, and learning journey.
+                Scroll down to explore what I’ve been working on!
+            </p>
+        </section>
+
   )
 }
 
