@@ -3,9 +3,9 @@ export interface NavItem {
     path: string;
 }
 
-export const navItems = [
+export const navItems: NavItem[] = [
     { label: 'Home', path: '/' },
     { label: 'About', path: '/about/' },
     { label: 'Projects', path: '/projects/' },
     { label: 'Contact', path: '/contact/' },
-]
+];
