@@ -49,27 +49,5 @@ export default function Header() {
                 />
             </nav>
         </header>
-        // <header className="header">
-        //     <div className="logo">
-        //         JHC
-        //     </div>
-        //     <nav className="relative flex gap-6">
-        //         {navItems.map(({ label, path }, idx) => (
-        //             <Link
-        //                 key={path}
-        //                 href={path}
-        //                 ref={el => { if (el) linkRefs.current[idx] = el as HTMLElement; }}
-        //                 className={`nav-link ${pathname === path ? 'active' : ''}`}
-        //             >
-        //                 {label}
-        //             </Link>
-        //         ))}
-        //         {/* Indicator Bar */}
-        //         <span
-        //             className="nav-indicator"
-        //             style={{ left: indicatorStyle.left, width: indicatorStyle.width }}
-        //         />
-        //     </nav>
-        // </header>
     );
 }
