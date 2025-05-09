@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import styles from '../../styles/about.module.css'
+
 import {
     User,
     Code,
@@ -84,16 +84,20 @@ const About: NextPage = () => {
             <h3 className="mt-4 text-5xl sm:text-3xl font-extrabold text-white">
                 Professional Skills
             </h3>
-                <div className={styles.skillsGrid}>
-                    {skills.map((skill) => (
-                        <div key={skill.name} className={styles.skillCard}>
-                            <span className={styles.skillName}>{skill.name}</span>
-                            <span
-                                className={`${styles.skillLevel} ${
-                                    styles[skill.level.toLowerCase()]
-                                }`}>
-                  {skill.level}
-                </span>
+            <div className="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-4 mb-8">
+                {skills.map((skill) => (
+                    <div key={skill.name} className="bg-[#1e1e2f] p-6 rounded text-center">
+                        <span className="block font-bold mb-3 text-white">{skill.name}</span>
+                        <span
+                            className={`inline-block px-3 py-1 rounded-full text-xs text-white ${
+                                skill.level.toLowerCase() === "beginner"
+                                    ? "bg-emerald-500"
+                                    : skill.level.toLowerCase() === "intermediate"
+                                        ? "bg-blue-500"
+                                        : "bg-violet-500"
+                            }`}>
+                          {skill.level}
+                        </span>
                     </div>
                 ))}
             </div>
@@ -102,18 +106,18 @@ const About: NextPage = () => {
             <h3 className="mt-4 text-5xl sm:text-3xl font-extrabold text-white">
                 More About Me
             </h3>
-            <div className={styles.blocksGrid}>
+            <div className="grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-6 mt-8">
                 {aboutBlocks.map(({ title, icon: Icon, items }) => (
-                    <div key={title} className={styles.block}>
-                        <div className={styles.blockHeader}>
-                            <Icon className={styles.blockIcon} />
-                            <h4 className={styles.blockTitle}>{title}</h4>
+                    <div key={title} className="bg-[#1e1e2f] p-6 rounded">
+                        <div className="flex items-center mb-4">
+                            <Icon className="bg-indigo-900 text-white p-2 rounded mr-3 w-8 h-8" />
+                            <h4 className="text-white text-xl font-semibold">{title}</h4>
                         </div>
-                        <ul className={styles.blockList}>
+                        <ul className="list-none p-0 m-0">
                             {items.map((item) => (
-                                <li key={item} className={styles.blockListItem}>
-                                    <ChevronRight className={styles.listIcon} />
-                                    <span className={styles.listText}>{item}</span>
+                                <li key={item} className="flex items-start mb-2 text-slate-300">
+                                    <ChevronRight className="mr-2 text-violet-500 w-4 h-4 shrink-0" />
+                                    <span className="leading-snug">{item}</span>
                                 </li>
                             ))}
                         </ul>
