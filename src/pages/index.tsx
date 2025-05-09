@@ -24,8 +24,8 @@ const Home: NextPage = () => {
             <h1 className="mt-4 text-5xl sm:text-6xl font-extrabold text-white">
                 Hi, I&apos;m{' '}
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
-                          Junghoon Cho
-                      </span>
+                    Junghoon (Alex) Cho
+                </span>
             </h1>
 
             {/* Subtitle */}
@@ -44,12 +44,8 @@ const Home: NextPage = () => {
 
             {/* Description */}
             <p className="mt-6 text-gray-400 leading-relaxed">
-                I’m a Computer Science student with a strong interest in Machine Learning and Software Engineering.
-                I enjoy building user-friendly web applications and solving problems through logic and code.
-            </p>
-            <p className="mt-4 text-gray-400 leading-relaxed">
-                This website showcases my personal projects, technical skills, and learning journey.
-                Scroll down to explore what I’ve been working on!
+                Passionate about building robust software in Python, Java, and C++, I specialize in machine learning with a focus on deep learning architectures.
+                From convolutional networks for image tasks to sequence models for natural language, I love translating complex data into intelligent applications.
             </p>
         </section>
 

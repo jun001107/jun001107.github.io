@@ -7,7 +7,9 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   return (
       <>
         <Header />
-        <main style={{ maxWidth: 800, margin: '2rem auto', padding: '0 1rem' }}>
+        <main className="py-4
+            px-[clamp(5%,10vw,20%)]
+            flex justify-between items-center">
           <Component {...pageProps} />
         </main>
         <Footer />
