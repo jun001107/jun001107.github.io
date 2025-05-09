@@ -6,6 +6,7 @@ frameworks:
   - React
   - Next.js
   - TailwindCSS
+category: "Blockchain"
 ---
 
 나는 똥이고, 너의 이름도 정훈이야.

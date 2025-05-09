@@ -6,6 +6,7 @@ frameworks:
   - React
   - Next.js
   - TailwindCSS
+category: "Web Development"
 ---
 
 나는 정훈이고, 너의 이름도 정훈이야.
