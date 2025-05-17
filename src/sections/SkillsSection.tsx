@@ -10,6 +10,8 @@ export default function SkillsSection() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {skills.map((skill, index) => {
+                        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+                        // @ts-expect-error
                         const Icon = SiIcons[skill.icon];
                         return (
                             <div key={index} className="flex items-start space-x-4">

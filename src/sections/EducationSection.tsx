@@ -1,4 +1,6 @@
 import edu from '../content/education.json';
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
 import schoolPhoto from '../assets/images/mcgill.jpeg';
 
 export default function EducationSection() {
