@@ -2,7 +2,7 @@
   {
     "title": "Peer Review Platform",
     "link": "https://github.com/jun001107/peer-review-platform",
-    "image": "/alexcho.github.io/assets/images/neural-network.jpg",
+    "image": "/assets/images/neural-network.jpg",
     "category": "Web Development",
     "skills": ["Python", "Django", "JavaScript"],
     "description": [
@@ -17,7 +17,7 @@
   {
     "title": "Database Application for Event Management",
     "link": "https://github.com/jun001107/database-event-management",
-    "image": "/alexcho.github.io/assets/images/neural-network.jpg",
+    "image": "/assets/images/neural-network.jpg",
     "category": "Database",
     "skills": ["Java", "JDBC", "DB2"],
     "description": [
@@ -31,7 +31,7 @@
   {
     "title": "BERT-based News Classifier",
     "link": "https://github.com/jun001107/bert-news-classifier",
-    "image": "/alexcho.github.io/assets/images/neural-network.jpg",
+    "image": "/assets/images/neural-network.jpg",
     "category": "Machine Learning",
     "skills": ["Python", "PyTorch", "Transformers"],
     "description": [
@@ -47,7 +47,7 @@
   {
     "title": "Neural Network from Scratch for Image Classification",
     "link": "https://github.com/jun001107/nn-from-scratch",
-    "image": "/alexcho.github.io/assets/images/neural-network.jpg",
+    "image": "/assets/images/neural-network.jpg",
     "category": "Machine Learning",
     "skills": ["Python", "NumPy"],
     "description": [
@@ -63,7 +63,7 @@
   {
     "title": "Colosseum Survival AI Agent",
     "link": "https://github.com/jun001107/colosseum-ai-agent",
-    "image": "/alexcho.github.io/assets/images/neural-network.jpg",
+    "image": "/assets/images/neural-network.jpg",
     "category": "Artificial Intelligence",
     "skills": ["Python", "Algorithms"],
     "description": [
@@ -79,7 +79,7 @@
   {
     "title": "Banking System in MIPS Assembly",
     "link": "https://github.com/jun001107/mips-banking-system",
-    "image": "/alexcho.github.io/assets/images/neural-network.jpg",
+    "image": "/assets/images/neural-network.jpg",
     "category": "Programming",
     "skills": ["MIPS Assembly"],
     "description": [
@@ -95,7 +95,7 @@
   {
     "title": "Recursive Contour Filling & File I/O",
     "link": "https://github.com/jun001107/contour-filling",
-    "image": "/alexcho.github.io/assets/images/neural-network.jpg",
+    "image": "/assets/images/neural-network.jpg",
     "category": "Programming",
     "skills": ["MIPS Assembly"],
     "description": [
@@ -111,7 +111,7 @@
   {
     "title": "Custom Operating System",
     "link": "https://github.com/jun001107/custom-os",
-    "image": "/alexcho.github.io/assets/images/neural-network.jpg",
+    "image": "/assets/images/neural-network.jpg",
     "category": "Programming",
     "skills": ["C"],
     "description": [
@@ -127,7 +127,7 @@
   {
     "title": "Healthcare Database System",
     "link": "https://github.com/jun001107/healthcare-db",
-    "image": "/alexcho.github.io/assets/images/neural-network.jpg",
+    "image": "/assets/images/neural-network.jpg",
     "category": "Database",
     "skills": ["Java", "PostgreSQL"],
     "description": [
@@ -143,7 +143,7 @@
   {
     "title": "Semantic Analysis of Tweets using NLP",
     "link": "https://github.com/jun001107/tweet-nlp-analysis",
-    "image": "/alexcho.github.io/assets/images/neural-network.jpg",
+    "image": "/assets/images/neural-network.jpg",
     "category": "NLP",
     "skills": ["Python", "scikit-learn"],
     "description": [
@@ -158,7 +158,7 @@
   {
     "title": "SOCS Website Backend Development",
     "link": "https://github.com/jun001107/socs-backend",
-    "image": "/alexcho.github.io/assets/images/neural-network.jpg",
+    "image": "/assets/images/neural-network.jpg",
     "category": "Web Development",
     "skills": ["PHP", "MySQL"],
     "description": [
