@@ -1,7 +1,7 @@
 // src/sections/AboutSection.tsx
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-expect-error
-import profilePic from '../assets/images/profile4.jpg';  // src/assets/images 에 넣은 후 import
+import profilePic from '../assets/images/profile5.jpg';  // src/assets/images 에 넣은 후 import
 import about from '../content/about.json';
 
 export default function AboutSection() {
