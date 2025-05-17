@@ -1,0 +1,26 @@
+{
+  "classes": [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Deep Learning",
+    "Natural Language Processing",
+    "Intelligent Software Systems",
+    "Robotics",
+    "Numerical Computing",
+    "Algorithm Design, Analysis and Complexity",
+    "Operating Systems",
+    "Database Systems"
+  ],
+  "degrees": [
+    {
+      "title": "Bachelor of Science (BSc) in Computer Science",
+      "institution": "McGill University",
+      "period": "September 2018 – December 2025",
+      "points": [
+        "Specialist in Computer Science with a Artificial Intelligence focus",
+        "Vice President of Events, McGill Educational Cultural Association (MECA), organizing events for 100+ students (1+ year)",
+        "Active member, McGill AI Society (6 months), participating in workshops and discussions"
+      ]
+    }
+  ]
+}

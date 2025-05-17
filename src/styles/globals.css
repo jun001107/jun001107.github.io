@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-heading;
+    }
+    body, p, span, a, li {
+        @apply font-body;
+    }
+}
+
+@layer utilities {
+  .gradient-bg {
+    background: linear-gradient(-45deg, #a9e6a6, #edcf4b, #90cdf4, #48bb78);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+  }
+  @keyframes gradientBG {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .blinking-cursor {
+    display: inline-block;
+    animation: blink 1s step-end infinite;
+  }
+  @keyframes blink {
+    from, to { opacity: 1; }
+    50% { opacity: 0; }
+  }
+}
+
+html {
+    scroll-behavior: smooth;
+
+}

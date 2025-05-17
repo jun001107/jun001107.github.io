@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "SiPython",
+    "title": "Machine Learning",
+    "description": "Experienced in building machine learning and deep learning models, with particular expertise in Python and frameworks such as PyTorch and TensorFlow."
+  },
+  {
+    "icon": "SiReact",
+    "title": "Web Development",
+    "description": "Skilled in modern frontend technologies including React, Next.js, and Tailwind CSS, capable of creating responsive and interactive web applications."
+  },
+  {
+    "icon": "SiCplusplus",
+    "title": "Software Development",
+    "description": "Strong programming foundation in Java, Python, and C++ with experience developing software and solving algorithmic problems."
+  },
+  {
+    "icon": "SiMysql",
+    "title": "Database Management",
+    "description": "Experienced in database design, management, and SQL queries, particularly in relational databases like MySQL."
+  },
+  {
+    "icon": "SiGithub",
+    "title": "Version Control & Collaboration",
+    "description": "Proficient in Git and GitHub, actively collaborating on team projects and managing codebases effectively."
+  },
+  {
+    "icon": "SiFigma",
+    "title": "UI/UX Design",
+    "description": "Knowledgeable in UI/UX design principles, using tools like Figma to create user-centered, intuitive interfaces."
+  }
+]

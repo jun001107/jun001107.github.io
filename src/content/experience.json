@@ -1,0 +1,13 @@
+[
+  {
+    "role": "Data Analyst",
+    "company": "Republic of Korea Air Force",
+    "period": "Nov 2022 – Jul 2024",
+    "location": "Seoul, Republic of Korea",
+    "points": [
+      "Designed and implemented time-series forecasting models using LSTM to support operational planning, optimizing model performance with adaptive optimizers.",
+      "Leveraged Q-learning techniques to analyze inventory patterns, improving stock management efficiency and reducing shortages and excess by over 25%.",
+      "Built a real-time, spreadsheet-integrated dashboard to visualize key metrics and support data-driven decision-making across departments."
+    ]
+  }
+]

@@ -1,0 +1,174 @@
+[
+  {
+    "title": "Peer Review Platform",
+    "link": "https://github.com/jun001107/peer-review-platform",
+    "image": "/alexcho.github.io/assets/images/neural-network.jpg",
+    "category": "Web Development",
+    "skills": ["Python", "Django", "JavaScript"],
+    "description": [
+      "Developing a web service for students and freelancers to outline projects and define collaborator roles upfront.",
+      "Users can post project descriptions, specify required tasks, and receive feedback or volunteer reviews through an integrated dashboard."
+    ],
+    "icons": [
+      "python",
+      "react"
+    ]
+  },
+  {
+    "title": "Database Application for Event Management",
+    "link": "https://github.com/jun001107/database-event-management",
+    "image": "/alexcho.github.io/assets/images/neural-network.jpg",
+    "category": "Database",
+    "skills": ["Java", "JDBC", "DB2"],
+    "description": [
+      "Developed a full-stack database application using Java, JDBC, and DB2 with stored procedures, indexing, and data visualizations.",
+      "Implemented a CLI app with over 5 interactive features and optimized queries using custom indexes."
+    ],
+    "icons": [
+      "cplusplus"
+    ]
+  },
+  {
+    "title": "BERT-based News Classifier",
+    "link": "https://github.com/jun001107/bert-news-classifier",
+    "image": "/alexcho.github.io/assets/images/neural-network.jpg",
+    "category": "Machine Learning",
+    "skills": ["Python", "PyTorch", "Transformers"],
+    "description": [
+      "Fine-tuned BERT on the AG News dataset for multi-class classification.",
+      "Compared performance between probing methods (KNN, Logistic Regression) and end-to-end training.",
+      "Visualized attention matrices to interpret model predictions."
+    ],
+    "icons": [
+      "pytorch",
+      "tensorflow"
+    ]
+  },
+  {
+    "title": "Neural Network from Scratch for Image Classification",
+    "link": "https://github.com/jun001107/nn-from-scratch",
+    "image": "/alexcho.github.io/assets/images/neural-network.jpg",
+    "category": "Machine Learning",
+    "skills": ["Python", "NumPy"],
+    "description": [
+      "Implemented multilayer perceptrons and convolutional neural networks on the Kuzushiji-MNIST dataset.",
+      "Compared different architectures, activation functions, and regularization techniques.",
+      "Achieved high test accuracy through experimental evaluation."
+    ],
+    "icons": [
+      "python",
+      "java"
+    ]
+  },
+  {
+    "title": "Colosseum Survival AI Agent",
+    "link": "https://github.com/jun001107/colosseum-ai-agent",
+    "image": "/alexcho.github.io/assets/images/neural-network.jpg",
+    "category": "Artificial Intelligence",
+    "skills": ["Python", "Algorithms"],
+    "description": [
+      "Developed a game-playing AI agent for a 2-player territory control game with strategic movement and wall placement.",
+      "Utilized search-based algorithms and heuristics to maximize spatial control.",
+      "Evaluated in a tournament of over 1000 games against peer agents, achieving top-tier performance."
+    ],
+    "icons": [
+      "python",
+      "java"
+    ]
+  },
+  {
+    "title": "Banking System in MIPS Assembly",
+    "link": "https://github.com/jun001107/mips-banking-system",
+    "image": "/alexcho.github.io/assets/images/neural-network.jpg",
+    "category": "Programming",
+    "skills": ["MIPS Assembly"],
+    "description": [
+      "Built a banking application supporting account creation, deposits, withdrawals, transfers, and loan operations in MIPS assembly.",
+      "Managed data via memory-mapped I/O and stored transaction history in arrays.",
+      "Implemented comprehensive error handling and input parsing using syscalls."
+    ],
+    "icons": [
+      "python",
+      "java"
+    ]
+  },
+  {
+    "title": "Recursive Contour Filling & File I/O",
+    "link": "https://github.com/jun001107/contour-filling",
+    "image": "/alexcho.github.io/assets/images/neural-network.jpg",
+    "category": "Programming",
+    "skills": ["MIPS Assembly"],
+    "description": [
+      "Implemented a recursive region-filling algorithm for 2D binary images parsed from ASCII text.",
+      "Generated .pbm outputs to visualize filled contours.",
+      "Developed helper subroutines for file I/O and 1D-to-2D data mapping."
+    ],
+    "icons": [
+      "python",
+      "java"
+    ]
+  },
+  {
+    "title": "Custom Operating System",
+    "link": "https://github.com/jun001107/custom-os",
+    "image": "/alexcho.github.io/assets/images/neural-network.jpg",
+    "category": "Programming",
+    "skills": ["C"],
+    "description": [
+      "Developed a minimal operating system in C from the ground up.",
+      "Implemented process management, scheduling, heap and page-based memory management.",
+      "Designed basic file system support and system call interfaces."
+    ],
+    "icons": [
+      "python",
+      "java"
+    ]
+  },
+  {
+    "title": "Healthcare Database System",
+    "link": "https://github.com/jun001107/healthcare-db",
+    "image": "/alexcho.github.io/assets/images/neural-network.jpg",
+    "category": "Database",
+    "skills": ["Java", "PostgreSQL"],
+    "description": [
+      "Designed an entity-relationship model for a healthcare database.",
+      "Implemented backend services in Java with PostgreSQL, enforcing ACID-compliant transactions.",
+      "Optimized CRUD operations with indexing and constraint management."
+    ],
+    "icons": [
+      "python",
+      "java"
+    ]
+  },
+  {
+    "title": "Semantic Analysis of Tweets using NLP",
+    "link": "https://github.com/jun001107/tweet-nlp-analysis",
+    "image": "/alexcho.github.io/assets/images/neural-network.jpg",
+    "category": "NLP",
+    "skills": ["Python", "scikit-learn"],
+    "description": [
+      "Applied TF-IDF and latent semantic analysis via SVD for topic modeling of tweets.",
+      "Trained sentiment classification models and evaluated performance using RMSE and accuracy metrics."
+    ],
+    "icons": [
+      "python",
+      "java"
+    ]
+  },
+  {
+    "title": "SOCS Website Backend Development",
+    "link": "https://github.com/jun001107/socs-backend",
+    "image": "/alexcho.github.io/assets/images/neural-network.jpg",
+    "category": "Web Development",
+    "skills": ["PHP", "MySQL"],
+    "description": [
+      "Built the backend of a website in PHP using MVC architecture.",
+      "Implemented authentication middleware and RESTful API endpoints in MySQL.",
+      "Enhanced performance through caching strategies and lazy loading."
+    ],
+    "icons": [
+      "python",
+      "java"
+    ]
+  }
+]
