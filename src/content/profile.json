@@ -1,0 +1,20 @@
+{
+  "name": "Junghoon Cho",
+  "title": "Software Engineer & CS Student",
+  "location": "Toronto, Ontario",
+  "email": "jun.cho00117@gmail.com",
+  "website": "Portfolio",
+  "avatar": "/profile.jpg",
+  "experiences": [
+    { "title": "Software Engineer", "subtitle": "ROKAF IT Directorate", "date": "2022 - 2024" },
+    { "title": "ML Research Intern", "subtitle": "University Lab", "date": "2021 - 2022" }
+  ],
+  "education": [
+    { "school": "McGill University", "degree": "B.Sc. Computer Science", "date": "Exp. 2025", "gpa": "3.42 / 4.00" }
+  ],
+  "skills": [
+    { "label": "Languages", "tags": ["Python", "C++", "Java", "TypeScript", "SQL"] },
+    { "label": "AI / ML", "tags": ["PyTorch", "TensorFlow", "Hugging Face", "LLMs", "RAG"] },
+    { "label": "Infrastructure", "tags": ["AWS", "Docker", "Kubernetes", "Terraform"] }
+  ]
+}

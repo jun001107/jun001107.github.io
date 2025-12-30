@@ -1,0 +1,11 @@
+[
+  { "id": 1, "url": "https://picsum.photos/seed/cafe/800/1000", "location": "Distillery District", "date": "Dec 29, 2025" },
+  { "id": 2, "url": "https://picsum.photos/seed/travel/800/1200", "location": "Montreal Trip", "date": "Dec 28, 2025" },
+  { "id": 3, "url": "https://picsum.photos/seed/code/800/800", "location": "Study Session", "date": "Dec 27, 2025" },
+  { "id": 4, "url": "https://picsum.photos/seed/macos/1000/800", "location": "System Config", "date": "Dec 26, 2025" },
+  { "id": 5, "url": "https://picsum.photos/seed/ui/800/1200", "location": "App Design", "date": "Dec 25, 2025" },
+  { "id": 6, "url": "https://picsum.photos/seed/cat/800/800", "location": "Home", "date": "Dec 24, 2025" },
+  { "id": 7, "url": "https://picsum.photos/seed/tech/800/600", "location": "Server Room", "date": "Dec 23, 2025" },
+  { "id": 8, "url": "https://picsum.photos/seed/night/800/1000", "location": "Downtown", "date": "Dec 22, 2025" },
+  { "id": 9, "url": "/photos/pikachu.jpeg", "location": "Sample Local", "date": "Jan 01, 2026" }
+]

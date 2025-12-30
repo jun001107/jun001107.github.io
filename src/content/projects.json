@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "title": "LLM Fine-Tuning & RAG System",
+    "description": "Architected end-to-end QA system using BERT/RoBERTa. Implemented LoRA/QLoRA for 4x memory reduction and engineered semantic retrieval pipelines achieving 85%+ accuracy.",
+    "tags": ["Python", "PyTorch", "Hugging Face", "RAG", "LoRA"],
+    "image": "https://picsum.photos/seed/llm/800/600"
+  },
+  {
+    "id": "2",
+    "title": "Demand Forecasting Pipeline",
+    "description": "Built production-grade forecasting system for 100K+ daily transactions. Developed hybrid modeling approach combining Deep Learning (GRU, LSTM, Transformer) and Gradient Boosting.",
+    "tags": ["PyTorch", "TensorFlow", "PySpark", "XGBoost"],
+    "image": "https://picsum.photos/seed/forecast/800/600"
+  },
+  {
+    "id": "3",
+    "title": "RL for Visual Reasoning",
+    "description": "Developed novel deep reinforcement learning agent for complex spatial reasoning. Implemented vision-based NN architecture with CNNs and recurrent layers for temporal reasoning.",
+    "tags": ["PyTorch", "OpenAI Gym", "MLflow", "CV"],
+    "image": "https://picsum.photos/seed/rl/800/600"
+  }
+]
