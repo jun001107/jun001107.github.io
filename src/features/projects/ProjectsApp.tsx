@@ -105,6 +105,30 @@ const ProjectsApp: React.FC = () => {
                 </p>
               </div>
 
+              {/* Motivation */}
+              <div>
+                <h2 className="text-xl font-bold text-gray-900 mb-3">Motivation</h2>
+                <p className="text-gray-600 text-[15px] leading-relaxed">
+                  {selectedProject.motivation}
+                </p>
+              </div>
+
+              {/* Challenges */}
+              <div>
+                <h2 className="text-xl font-bold text-gray-900 mb-3">Challenges</h2>
+                <p className="text-gray-600 text-[15px] leading-relaxed">
+                  {selectedProject.challenges}
+                </p>
+              </div>
+
+              {/* Learnings */}
+              <div>
+                <h2 className="text-xl font-bold text-gray-900 mb-3">Learnings</h2>
+                <p className="text-gray-600 text-[15px] leading-relaxed">
+                  {selectedProject.learnings}
+                </p>
+              </div>
+
               {/* Tags / Tech Stack */}
               <div>
                  <h2 className="text-xl font-bold text-gray-900 mb-3">Technologies</h2>
@@ -229,7 +253,7 @@ const ProjectsApp: React.FC = () => {
             Explore my full repositories, including research papers and open source contributions.
           </p>
           <button className="px-5 py-2 rounded-full bg-white border border-gray-200 shadow-sm text-sm font-semibold text-gray-700 hover:border-gray-300 hover:text-gray-900 transition-all">
-            View All Repositories
+            <a href="https://github.com/jun001107" rel="noreferrer" target="_blank">View All Repositories</a>
           </button>
         </div>
       </div>
