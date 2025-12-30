@@ -30,6 +30,10 @@ export interface Project {
   description: string;
   tags: string[];
   image: string;
+  github?: string;
+  timeline?: string;
+  performance?: string;
+  role?: string;
 }
 
 export interface Photo {

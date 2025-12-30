@@ -3,9 +3,20 @@ import { Mail, Send, Linkedin, Globe, CheckCircle } from 'lucide-react';
 
 const ContactApp: React.FC = () => {
   const [isSent, setIsSent] = useState(false);
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  const openMailClient = () => {
+    const subject = `Portfolio contact from ${name || 'Visitor'}`;
+    const body = `${message}\n\nFrom: ${name || 'Visitor'} <${email || 'n/a'}>`;
+    const mailto = `mailto:jun.cho00117@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = mailto;
+  };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    openMailClient();
     setIsSent(true);
     setTimeout(() => setIsSent(false), 3000);
   };
@@ -22,8 +33,8 @@ const ContactApp: React.FC = () => {
         </div>
 
         <div className="space-y-4">
-          <ContactLink icon={Mail} title="Email" value="jun.cho00117@gmail.com" />
-          <ContactLink icon={Linkedin} title="LinkedIn" value="linkedin.com/in/junghooncho117" />
+          <ContactLink icon={Mail} title="Email" value="jun.cho00117@gmail.com" href="mailto:jun.cho00117@gmail.com" />
+          <ContactLink icon={Linkedin} title="LinkedIn" value="linkedin.com/in/junghooncho117" href="https://www.linkedin.com/in/junghooncho117" />
           {/* Using McGill or Portfolio URL as placeholder since website wasn't explicitly in resume text besides linkedin */}
           <ContactLink icon={Globe} title="Location" value="Toronto, Ontario" />
         </div>
@@ -46,6 +57,8 @@ const ContactApp: React.FC = () => {
               <input 
                 type="text" 
                 required
+                value={name}
+                onChange={(e) => setName(e.target.value)}
                 className="w-full bg-black/20 border border-white/10 rounded-lg px-4 py-2.5 text-white placeholder-white/30 focus:outline-none focus:ring-2 focus:ring-white/20 transition-all"
                 placeholder="Recruiter / Visitor Name"
               />
@@ -55,6 +68,8 @@ const ContactApp: React.FC = () => {
               <input 
                 type="email" 
                 required
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
                 className="w-full bg-black/20 border border-white/10 rounded-lg px-4 py-2.5 text-white placeholder-white/30 focus:outline-none focus:ring-2 focus:ring-white/20 transition-all"
                 placeholder="visitor@example.com"
               />
@@ -64,6 +79,8 @@ const ContactApp: React.FC = () => {
               <textarea 
                 required
                 rows={4}
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
                 className="w-full bg-black/20 border border-white/10 rounded-lg px-4 py-2.5 text-white placeholder-white/30 focus:outline-none focus:ring-2 focus:ring-white/20 transition-all resize-none"
                 placeholder="Hi Junghoon, I'd like to discuss a potential role..."
               />
@@ -83,16 +100,28 @@ const ContactApp: React.FC = () => {
   );
 };
 
-const ContactLink: React.FC<{ icon: any, title: string, value: string }> = ({ icon: Icon, title, value }) => (
-  <div className="flex items-center gap-4 p-3 rounded-xl hover:bg-white/5 border border-transparent hover:border-white/5 transition-all cursor-pointer group">
-    <div className="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center group-hover:scale-110 transition-transform">
-      <Icon className="w-5 h-5 text-white" />
+const ContactLink: React.FC<{ icon: any; title: string; value: string; href?: string }> = ({ icon: Icon, title, value, href }) => {
+  const content = (
+    <div className="flex items-center gap-4 p-3 rounded-xl hover:bg-white/5 border border-transparent hover:border-white/5 transition-all cursor-pointer group">
+      <div className="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center group-hover:scale-110 transition-transform">
+        <Icon className="w-5 h-5 text-white" />
+      </div>
+      <div>
+        <p className="text-xs text-white/40 font-medium uppercase tracking-wider">{title}</p>
+        <p className="text-white/90">{value}</p>
+      </div>
     </div>
-    <div>
-      <p className="text-xs text-white/40 font-medium uppercase tracking-wider">{title}</p>
-      <p className="text-white/90">{value}</p>
-    </div>
-  </div>
-);
+  );
+
+  if (href) {
+    return (
+      <a href={href} target="_blank" rel="noreferrer" className="block">
+        {content}
+      </a>
+    );
+  }
+
+  return content;
+};
 
 export default ContactApp;

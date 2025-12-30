@@ -1,8 +1,8 @@
 import { GoogleGenAI } from '@google/genai';
-import { getGeminiApiKey } from '@/config/env';
+import { getGeminiApiKey, getGeminiModel } from '@/config/env';
 import { ChatMessage } from '@/types/chat';
 
-const MODEL_NAME = 'gemini-3-flash-preview';
+const MODEL_NAME = getGeminiModel();
 
 interface SendChatOptions {
   history: ChatMessage[];

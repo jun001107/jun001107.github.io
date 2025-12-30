@@ -56,9 +56,10 @@ const TerminalApp: React.FC = () => {
       });
 
       setHistory((prev) => [...prev, { role: 'model', content: text }]);
-    } catch (error) {
+    } catch (error: any) {
       console.error(error);
-      setHistory(prev => [...prev, { role: 'system', content: 'Error: Connection to Neural Net interrupted. Please try again.' }]);
+      const message = error?.message || 'Error: Connection to Neural Net interrupted. Please try again.';
+      setHistory(prev => [...prev, { role: 'system', content: message }]);
     } finally {
       setIsLoading(false);
     }

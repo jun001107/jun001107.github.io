@@ -52,10 +52,15 @@ const ProjectsApp: React.FC = () => {
                 </p>
                 
                 <div className="flex gap-3">
-                  <button className="flex-1 md:flex-none bg-blue-600 hover:bg-blue-700 active:scale-95 transition-all text-white px-8 py-2 rounded-full font-bold text-sm shadow-lg shadow-blue-500/30 flex items-center justify-center gap-2">
+                  <a
+                    href={selectedProject.github || '#'}
+                    target="_blank"
+                    rel="noreferrer"
+                    className={`flex-1 md:flex-none bg-blue-600 hover:bg-blue-700 active:scale-95 transition-all text-white px-8 py-2 rounded-full font-bold text-sm shadow-lg shadow-blue-500/30 flex items-center justify-center gap-2 ${selectedProject.github ? '' : 'pointer-events-none opacity-50'}`}
+                  >
                     <Github className="w-4 h-4" />
                     <span>View Code</span>
-                  </button>
+                  </a>
                   <button className="bg-gray-100 hover:bg-gray-200 active:scale-95 transition-all text-blue-600 px-4 py-2 rounded-full font-bold text-sm">
                     <ExternalLink className="w-5 h-5" />
                   </button>
@@ -72,21 +77,21 @@ const ProjectsApp: React.FC = () => {
                 <div className="text-gray-400 text-[10px] font-bold uppercase tracking-wider">Timeline</div>
                 <div className="flex items-center justify-center gap-1 text-gray-900 font-semibold text-lg">
                   <Calendar className="w-4 h-4 text-gray-400" />
-                  <span>3 Mos</span>
+                  <span>{selectedProject.timeline || 'TBD'}</span>
                 </div>
               </div>
               <div className="border-l border-gray-100 space-y-1">
                 <div className="text-gray-400 text-[10px] font-bold uppercase tracking-wider">Performance</div>
                 <div className="flex items-center justify-center gap-1 text-gray-900 font-semibold text-lg">
                   <Zap className="w-4 h-4 text-yellow-500" />
-                  <span>High</span>
+                  <span>{selectedProject.performance || 'N/A'}</span>
                 </div>
               </div>
               <div className="border-l border-gray-100 space-y-1">
                  <div className="text-gray-400 text-[10px] font-bold uppercase tracking-wider">Role</div>
                  <div className="flex items-center justify-center gap-1 text-gray-900 font-semibold text-lg">
                   <Shield className="w-4 h-4 text-green-500" />
-                  <span>Lead</span>
+                  <span>{selectedProject.role || 'N/A'}</span>
                 </div>
               </div>
             </div>
@@ -97,8 +102,6 @@ const ProjectsApp: React.FC = () => {
                 <h2 className="text-xl font-bold text-gray-900 mb-3">About this project</h2>
                 <p className="text-gray-600 text-[15px] leading-relaxed">
                   {selectedProject.description}
-                  <br/><br/>
-                  This project demonstrates advanced implementation of modern software engineering principles, leveraging scalable infrastructure and state-of-the-art machine learning capabilities. It was designed to solve real-world problems with a focus on reliability and user experience.
                 </p>
               </div>
 
@@ -199,9 +202,14 @@ const ProjectsApp: React.FC = () => {
                 </div>
                 
                 <div className="flex gap-3 pl-2">
-                  <button className="text-gray-400 hover:text-gray-900 transition-colors">
+                  <a
+                    href={project.github || '#'}
+                    target="_blank"
+                    rel="noreferrer"
+                    className={`text-gray-400 hover:text-gray-900 transition-colors ${project.github ? '' : 'pointer-events-none opacity-40'}`}
+                  >
                     <Github className="w-5 h-5" />
-                  </button>
+                  </a>
                   <button className="text-gray-400 hover:text-gray-900 transition-colors">
                     <ExternalLink className="w-5 h-5" />
                   </button>
