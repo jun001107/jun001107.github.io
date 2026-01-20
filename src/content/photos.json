@@ -1,11 +1,51 @@
 [
-  { "id": 1, "url": "https://picsum.photos/seed/cafe/800/1000", "location": "Distillery District", "date": "Dec 29, 2025" },
-  { "id": 2, "url": "https://picsum.photos/seed/travel/800/1200", "location": "Montreal Trip", "date": "Dec 28, 2025" },
-  { "id": 3, "url": "https://picsum.photos/seed/code/800/800", "location": "Study Session", "date": "Dec 27, 2025" },
-  { "id": 4, "url": "https://picsum.photos/seed/macos/1000/800", "location": "System Config", "date": "Dec 26, 2025" },
-  { "id": 5, "url": "https://picsum.photos/seed/ui/800/1200", "location": "App Design", "date": "Dec 25, 2025" },
-  { "id": 6, "url": "https://picsum.photos/seed/cat/800/800", "location": "Home", "date": "Dec 24, 2025" },
-  { "id": 7, "url": "https://picsum.photos/seed/tech/800/600", "location": "Server Room", "date": "Dec 23, 2025" },
-  { "id": 8, "url": "https://picsum.photos/seed/night/800/1000", "location": "Downtown", "date": "Dec 22, 2025" },
-  { "id": 9, "url": "/photos/pikachu.jpeg", "location": "Sample Local", "date": "Jan 01, 2026" }
+  {
+    "id": 1,
+    "url": "gallery/1.png",
+    "location": "Koreas Trip",
+    "date": "Nov 29, 2023"
+  },
+  {
+    "id": 2,
+    "url": "gallery/2.png",
+    "location": "Montreal Bagel",
+    "date": "Dec 28, 2025"
+  },
+  {
+    "id": 3,
+    "url": "gallery/3.png",
+    "location": "Quebec City",
+    "date": "Sep 27, 2025"
+  },
+  {
+    "id": 4,
+    "url": "gallery/4.png",
+    "location": "Koreas Trip",
+    "date": "Aug 03, 2025"
+  },
+  {
+    "id": 7,
+    "url": "gallery/7.png",
+    "location": "Puppy",
+    "date": "Dec 23, 2025"
+  },
+  {
+    "id": 5,
+    "url": "gallery/5.png",
+    "location": "Japan Trip",
+    "date": "May 25, 2025"
+  },
+  {
+    "id": 6,
+    "url": "gallery/6.png",
+    "location": "Japan Trip",
+    "date": "May 24, 2025"
+  },
+
+  {
+    "id": 8,
+    "url": "gallery/8.png",
+    "location": "Downtown",
+    "date": "Dec 22, 2025"
+  }
 ]
