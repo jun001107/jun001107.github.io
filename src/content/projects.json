@@ -131,7 +131,7 @@
       "Leader Election",
       "Concurrency"
     ],
-    "image": "https://picsum.photos/seed/web/800/600",
+    "image": "/photos/p6.png",
     "github": "#",
     "timeline": "3 Mos",
     "performance": "High",
@@ -153,7 +153,7 @@
       "Deep Learning",
       "Data Preprocessing"
     ],
-    "image": "https://picsum.photos/seed/web/800/500",
+    "image": "/photos/p7.png",
     "github": "#",
     "timeline": "4 Mos",
     "performance": "High",
@@ -178,7 +178,7 @@
       "PCA",
       "WEAT"
     ],
-    "image": "https://picsum.photos/seed/web/800/600",
+    "image": "/photos/p8.png",
     "github": "#",
     "timeline": "3 Mos",
     "performance": "Medium",
@@ -203,7 +203,7 @@
       "Contrastive Learning",
       "Bi-Encoder"
     ],
-    "image": "https://picsum.photos/seed/qa/800/700",
+    "image": "/photos/p9.png",
     "github": "#",
     "timeline": "2 Mos",
     "performance": "Medium",
@@ -225,7 +225,7 @@
       "Algorithm Implementation",
       "Model Evaluation"
     ],
-    "image": "https://picsum.photos/seed/nlp/800/800",
+    "image": "/photos/p10.jpg",
     "github": "#",
     "timeline": "2 Mos",
     "performance": "Medium",
@@ -248,7 +248,7 @@
       "Feature Engineering",
       "NumPy"
     ],
-    "image": "https://picsum.photos/seed/nlp/800/600",
+    "image": "/photos/p11.jpeg",
     "github": "#",
     "timeline": "2 Mos",
     "performance": "Medium",
@@ -273,7 +273,7 @@
       "Kuzushiji-MNIST",
       "Hyperparameter Tuning"
     ],
-    "image": "https://picsum.photos/seed/nlp/800/600",
+    "image": "/photos/p12.png",
     "github": "#",
     "timeline": "2 Mos",
     "performance": "Medium",
@@ -298,7 +298,7 @@
       "Feature Extraction",
       "AG News"
     ],
-    "image": "https://picsum.photos/seed/nlp/800/600",
+    "image": "/photos/p13.jpg",
     "github": "#",
     "timeline": "2 Mos",
     "performance": "Medium",
