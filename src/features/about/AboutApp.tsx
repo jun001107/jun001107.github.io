@@ -37,9 +37,11 @@ const AboutApp: React.FC = () => {
         <div className="md:col-span-2 bg-white rounded-2xl p-6 shadow-sm border border-gray-200/60 hover:shadow-md transition-shadow">
           <h2 className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3 ml-1">About</h2>
           <p className="text-gray-700 leading-relaxed text-[15px] font-normal">
-            I am a Computer Science student at <span className="text-gray-900 font-semibold">McGill University</span> with professional experience in building production-grade AI systems. 
-            Previously at <span className="text-gray-900 font-semibold">ROKAF IT Directorate</span>, I engineered high-throughput LLM inference APIs and MLOps pipelines.
-            I'm passionate about bridging state-of-the-art research with reliable infrastructure.
+            I am a software engineering graduate focused on data-intensive systems, machine learning engineering, and performance-critical software. 
+            I specialize in turning computationally heavy problems into efficient, scalable solutions through strong algorithmic foundations and pragmatic engineering trade-offs. 
+            My experience includes GPU-accelerated analytics, distributed model training, and end-to-end ML pipelines with automation and deployment. 
+            I approach machine learning with an engineering mindset, emphasizing measurement, iteration, and system-level optimization rather than black-box modeling. 
+            I enjoy decomposing ambiguous problems, validating assumptions empirically, and building robust, maintainable systems. I am seeking software and machine learning engineering roles where I can contribute to scalable, data-driven products.
           </p>
         </div>
 
